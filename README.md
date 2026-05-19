@@ -3,6 +3,7 @@ Desarrollar e implementar algoritmos fundamentales en lenguajes de programación
 •	Diseñar un sistema de búsqueda lineal estructurado mediante arreglos paralelos para asociar y extraer información relacionada (productos y precios) de forma directa.
 •	Aplicar mecanismos de control de flujo (break) en estructuras repetitivas para optimizar el tiempo de ejecución del algoritmo una vez alcanzado el criterio de búsqueda.
 •	Analizar y delimitar correctamente los rangos de iteración en ciclos for para mitigar vulnerabilidades relacionadas con el acceso a posiciones de memoria inexistentes o no autorizadas.
+
 DONDE RESOLVIMOS LOS EJERCICIOS A CONTINUACION 
 Ejercicio 1: Búsqueda Lineal de Productos 
 Desarrollar un programa en C++ o Java que permita buscar un producto dentro de un arreglo utilizando el algoritmo de búsqueda lineal. 
