@@ -1,1 +1,27 @@
+Proceso MostrarArregloSinDesbordamiento
+	
+    Definir numeros Como Entero
+    Definir posicion Como Entero
+    Definir i Como Entero
+	
+    Dimension numeros[5]
+    Dimension posicion[5]
+	
+    // Asignaci�n de valores
+    numeros[1] <- 10
+    numeros[2] <- 8
+    numeros[3] <- 9
+    numeros[4] <- 7
+    numeros[5] <- 6
+	
+    posicion[1] <- 0
+    posicion[2] <- 1
+    posicion[3] <- 2
+    posicion[4] <- 3
+    posicion[5] <- 4
 
+    Para i <- 1 Hasta 5 Hacer
+        Escribir "Posicion: ", posicion[i], " Numero: ", numeros[i]
+    FinPara
+	
+FinProceso
