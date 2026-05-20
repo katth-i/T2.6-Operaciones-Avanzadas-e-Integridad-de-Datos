@@ -1,0 +1,26 @@
+Análisis
+El programa utiliza dos arreglos: uno llamado numeros que almacena 5 valores enteros y otro llamado posicion que guarda las posiciones correspondientes.
+Mediante un ciclo for, el programa recorre ambos arreglos y muestra en pantalla cada posición junto con el número almacenado en ella.
+El ciclo se ejecuta desde i = 0 hasta i < 5, evitando salir del límite del arreglo.
+Además, el comentario explica que si el ciclo supera el tamaño del arreglo, puede producirse un desbordamiento de memoria (buffer overflow).
+
+Variables de Entrada:
+No existen variables de entrada ingresadas por el usuario.
+Los datos ya están definidos dentro del programa:
+numeros[] = {10, 8, 9, 7, 6}
+posicion[] = {0, 1, 2, 3, 4}
+Variables de Proceso:
+numeros[] → almacena los números enteros.
+posicion[] → almacena las posiciones de cada número.
+i → variable contador utilizada en el ciclo for.
+Variables de Salida:
+Mensajes mostrados en pantalla con la posición y el número correspondiente.
+
+Algoritmo:
+Iniciar el programa.
+Declarar el arreglo numeros con 5 valores.
+Declarar el arreglo posicion con las posiciones.
+Iniciar un ciclo for desde i = 0 hasta i < 5.
+Mostrar la posición y el número correspondiente.
+Repetir hasta terminar el ciclo.
+Finalizar el programa.

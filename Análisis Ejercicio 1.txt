@@ -1,0 +1,32 @@
+Análisis:
+El programa almacena una lista de productos y sus precios en dos arreglos paralelos.
+El usuario ingresa el nombre de un producto y el programa recorre el arreglo productos para buscar coincidencias.
+Si encuentra el producto, muestra su precio correspondiente usando el mismo índice en el arreglo precios.
+Si el producto no existe, se muestra el mensaje "Producto no encontrado".
+
+Variables de Entrada:
+buscar → almacena el nombre del producto ingresado por el usuario.
+Variables de Proceso:
+productos[] → arreglo que almacena los nombres de los productos.
+precios[] → arreglo que almacena los precios de cada producto.
+i → contador utilizado en el ciclo for.
+nombre → guarda el producto encontrado para verificar si existe.
+Variables de Salida:
+Mensaje con el precio del producto encontrado.
+Mensaje "Producto no encontrado" si no existe.
+
+Algoritmo:
+Iniciar el programa.
+Declarar el arreglo productos con los nombres de productos.
+Declarar el arreglo precios con los precios correspondientes.
+Solicitar al usuario el nombre del producto.
+Guardar el dato ingresado en buscar.
+Recorrer el arreglo productos con un ciclo for.
+Comparar cada producto con el valor de buscar.
+Si el producto existe:
+  Guardar el nombre en nombre.
+  Mostrar el precio correspondiente.
+  Salir del ciclo con break.
+Si el producto no fue encontrado:
+  Mostrar "Producto no encontrado".
+Finalizar el programa.
